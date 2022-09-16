@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(50deg, rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(doctor.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+  }
+  header{
+   
+    width:auto;
+    background: rgba(8, 175, 252, 0.788);
+    height: 50px;
+    }
+    header img{
+        width: 50px;   
+    }
+  
+    header ul{
+        list-style: none;
+        float: right;
+        margin-top: 13px;
+        display: flex;
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+    ul li{
+        display: inline-block;
+        margin-right: 2px;
+        padding-left: 4px;
+    }
+    header ul li a{
+        text-decoration: none;
+        font-weight: 200;
+        color: white;
+        
+    }
+    header h3{
+        display: inline-flex;
+        float: left;
+        position: absolute;
+        color: white;
+        margin-top: 5px;
+        font-size: 25px;
+        padding-left: 1% ;
+    }
+    
+    header ul button{
+        background: rgb(255, 255, 255);
+        font-size: 13px;
+        cursor: pointer;
+        width: 50px;
+        height: 20px;
+        margin-right: 2px;
+       font-family: 'Times New Roman', Times, serif ;
+        color: white;
+        background: transparent;
+        border: 0.1px solid white;
+        border-radius: 2px;
+         
+    }
+    header ul img{
+        width: 18px;
+       margin-left: 3px;
+       margin-top: 2px ;
+        display: none;
+      
+    }
+
+.container{
+    margin: 10px;
+     
+}
+label{
+    color: white;
+    font-size: larger;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 400;
+}
+   
+.MRN{
+padding-bottom: 20px;
+display: grid;
+grid-template-columns: 50%  50% ;
+}
+.Mrn_name{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.MRN label{
+    padding-left: 20px;
+}
+.MRN input{
+    height: 50px;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+
+}
+.sex{
+    display: block;
+}
+.sex_info{
+
+display: flex;
+}
+.sex_info input{
+    width: 15%;   
+}
+
+.search_div .btn{
+    padding: 10px;
+    font-size: larger;
+    background-color: rgb(254, 254, 255);
+    outline: none;
+    border-color:rgb(207, 198, 198) ;
+    border-radius: 10px ;
+}
+
+.DEATEINFO{
+    display: grid;
+    grid-template-columns: 20% 100%;
+    
+}
+.DEATEINFO input{
+    width: 60%;
+}
+
+.add_info{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.ADDRESS{
+    margin-left:20%;
+    display: grid;
+   grid-template-columns: 60% 50%;
+}
+.ADDRESS input{
+    height: 50px;
+    width: 55%;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+.search_div{
+
+    border-radius: 15px;
+    width: 70%;
+    height: 60px;
+    margin-left: 15%;
+    padding-left: 5px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+#search{
+    
+    margin-top: 5px;
+    width:90%;
+    height: 55%;
+    outline: none;
+    font-size: 30px;
+    padding-left: 10px;
+    border: none;
+
+}
+.search_div img{
+   
+    margin-top: 3px;
+}
+.infodata{
+    width: 80%;
+    height: 450px;
+    background: rgb(238, 234, 234);
+    border-radius: 10px;
+}
+.btn_submit{
+    width: 100%;
+}
+.btn_submit input{
+    width: 70%;
+    height: 50px;
+    margin-left: 18%;
+    border-radius: 10px;
+    border: none;
+    font-size:30px;
+
+}
+.btn_submit input:hover{
+    background: rgb(7, 80, 218);
+    color: white;
+    cursor: pointer;
+}
+
+
+    @media  (max-width:530px) {
+        header ul li{
+            display: none;
+        }
+        header ul img{
+           
+            display: block;
+          
+        }
+        
+    }
+    @media (max-width:389px){
+    header ul .button{
+        display: none;
+    }
+    }
+    @media (max-width:282px){
+        header img {
+            display: none;
+        }
+        }
+        @media (max-width:294px){
+            .mainbody{
+                margin-top:40% ;
+                height: 500px;
+               
+               
+                float: right;
+                background: rgba(0, 0, 0, 0.301);
+                display: grid;
+                grid-template-columns: 72px 75px 75px  ;
+                grid-template-rows: 80px;
+                
+            }
+            }
+            .footer{
+                width: 100%;
+                height: auto;
+                margin-top: 816px;
+                background: rgba(3, 24, 94, 0.918);
+                display: flex;
+                color: white;
+                position: relative
+            }
+            footer .r_footer p{
+                paddings-top: 20px ;
+            }
+            .footer .l_footer{
+                width: 45%;
+                height: 100%;
+                background: transparent;
+            }
+    

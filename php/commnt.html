@@ -1,0 +1,40 @@
+$sql1="SELECT *from all_room where username='$username'";
+$query1=mysqli_query($con,$sql);
+$sql2="SELECT *from orc_room where username='$username' AND password='$password'";
+$query2=mysqli_query($con,$sql2);
+$sql3="SELECT *from dental_room where username='$username' AND password='$password'";
+$query3=mysqli_query($con,$sql3);
+
+$sql4="SELECT *from eyeunit_room where username='$username' AND password='$password'";
+$query4=mysqli_query($con,$sql4);
+
+
+$sql5="SELECT *from pedatric opd_room where username='$username' AND password='$password'";
+$query5=mysqli_query($con,$sql5);
+
+
+$sql6="SELECT *from src where username='$username' AND password='$password'";
+$query6=mysqli_query($con,$sql6);
+
+
+$sql7="SELECT *from ultrasound_room where username='$username' AND password='$password'";
+$query7=mysqli_query($con,$sql7);
+
+
+$sql8="SELECT *from xray_room where username='$username' AND password='$password'";
+$query8=mysqli_query($con,$sql8);
+
+$sql9="SELECT *from pathology_room where username='$username' AND password='$password'";
+$query9=mysqli_query($con,$sql9);
+
+$sql10="SELECT *from opd_room where username='$username' AND password='$password'";
+$query10=mysqli_query($con,$sql10);
+
+$sql11="SELECT *from card_room where username='$username' AND password='$password'";
+$query11=mysqli_query($con,$sql11);
+
+$sql12="SELECT *from adult triage where username='$username' AND password='$password'";
+$query12=mysqli_query($con,$sql12);
+
+
+ 

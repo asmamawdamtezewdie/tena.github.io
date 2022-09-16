@@ -1,0 +1,27 @@
+@import url(style3.css);
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    background: rgb(15, 101, 158);
+  
+    margin: auto;
+    margin-top: 2%;
+}
+tr td{
+  padding: 10px;
+
+}
+td a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}

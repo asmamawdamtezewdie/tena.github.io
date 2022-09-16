@@ -1,0 +1,43 @@
+@import url(../style.css);
+@import url(../style2.css);
+table{
+    margin-left: 8%;
+    margin-top: 20px;
+
+}
+table td{
+    background: rgb(194, 194, 194);
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+
+}
+table td:hover{
+    background: rgb(8, 82, 241);  
+}
+table td:hover a{
+    color: white;
+}
+
+table td a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(22, 65, 255);
+
+}
+.table2{
+    margin-left: 30%;
+}
+.table2 label{
+    font-size: 15px;
+}
+.table2 tr td       {
+    width: 350px;
+}
+.table2 tr{
+    display: flex;
+    border-bottom: 1px solid rgb(8, 126, 236);
+}
+center{
+   
+}

@@ -1,0 +1,150 @@
+body{
+    background: rgb(154, 243, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 690px;
+    border: 1px solid black;
+ height:auto;
+ padding-bottom: 45px;
+}
+p{
+    color: rgb(81, 21, 192);
+    font-size: 17PX;
+    text-align: center;
+
+   
+}
+H2{
+    text-align: center;
+}
+img{
+    margin-left: 40%;
+    width: 16%;
+}
+.mainbody{
+    width: auto;
+    align-items: center;
+    display: grid
+}
+.MRN{
+    padding-bottom:5% ;
+    display: grid; 
+    padding-left: 30%;
+}
+.MRN label{
+font-size: 15PX;
+padding-left: 3%;
+margin-top: 15px;
+
+}
+.sex{
+    margin: 0;
+    padding: 0;
+   padding-left: 30%;
+   padding-bottom: 4%;
+
+}
+.sex label{
+    padding-right: 10px;
+    margin-left: 15px;
+}
+.MRN input{
+    width: 50%;
+    height: 95%;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4%;
+}
+
+.NAMEINFO{
+    padding-bottom: 5%;
+    position: sticky ;
+ 
+}
+.NAMEINFO {
+    padding-bottom: 5%;
+   
+}
+.NAMEINFO input{
+    width: auto;
+    height: 30px;
+    border: none;
+    outline: none;
+   
+}
+.NAMEINFO #labelname {
+    margin-left: %;
+}
+.NAMEINFO label{
+    padding-left: 3%;
+}
+.DEATEINFO{
+    display:;
+    padding-left: 3%;
+   
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+
+}
+.DEATEINFO label{
+ 
+font-style: bold;
+font-size: 18px;
+
+}
+.DEATEINFO input{
+   
+   width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: none;
+    outline: none;
+    height: 20px;
+}
+.ADDRESS{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+}
+.ADDRESS label{
+    font-size: larger;
+    padding-top: 4px;
+}
+.ADDRESS input{
+  height: 25px;
+  border: none;
+  outline: none;
+}
+
+.btn_submit input{
+    width: 50%;
+    margin-left: 25%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    
+}
+.btn_submit input:hover{
+    background: rgb(22, 204, 165);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.btn button{
+    width: 45px;
+    height: 50px;
+    margin-left: 30px;
+   
+}
+
+input{
+    border-radius: 5px;
+}
+
